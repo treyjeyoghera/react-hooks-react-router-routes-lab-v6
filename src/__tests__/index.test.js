@@ -2,7 +2,7 @@ import "@testing-library/jest-dom";
 import { RouterProvider, createMemoryRouter, MemoryRouter} from "react-router-dom"
 import { render, screen } from "@testing-library/react";
 import routes from "../routes.js";
-
+import ErrorPage from "../pages/Error.js";
 
 
 test('renders the Home component on route "/"', () => {
